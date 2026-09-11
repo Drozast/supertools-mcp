@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "supertools": {
+      "type": "http",
+      "url": "https://api.supertools.cl/api/v1/mcp/hosting",
+      "headers": {
+        "x-api-key": "${SUPERTOOLS_API_KEY}"
+      }
+    }
+  }
+}

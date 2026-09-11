@@ -1,0 +1,11 @@
+{
+  "name": "supertools",
+  "description": "Publica y administra sitios web en Supertools Hosting desde tu asistente de IA.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Supertools",
+    "url": "https://supertools.cl"
+  },
+  "homepage": "https://supertools.cl/dashboard/hosting/mcp",
+  "keywords": ["hosting", "deploy", "mcp", "supertools", "chile"]
+}

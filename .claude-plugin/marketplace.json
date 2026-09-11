@@ -1,0 +1,15 @@
+{
+  "name": "supertools",
+  "description": "Herramientas de Supertools para tu asistente de IA: publica y administra sitios web sin salir del editor.",
+  "owner": {
+    "name": "Supertools",
+    "url": "https://supertools.cl"
+  },
+  "plugins": [
+    {
+      "name": "supertools",
+      "source": "./",
+      "description": "Publica y administra sitios web en Supertools Hosting desde tu asistente de IA."
+    }
+  ]
+}

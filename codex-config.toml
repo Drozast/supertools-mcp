@@ -1,0 +1,15 @@
+# Pega este bloque en ~/.codex/config.toml
+#
+# Codex habla MCP por stdio, así que usamos mcp-remote como puente al endpoint
+# HTTP. Necesita Node instalado. Exporta antes tu key:
+#   export SUPERTOOLS_API_KEY="tu-key"   (la sacas de supertools.cl/dashboard/hosting/mcp)
+
+[mcp_servers.supertools]
+command = "npx"
+args = [
+  "-y",
+  "mcp-remote",
+  "https://api.supertools.cl/api/v1/mcp/hosting",
+  "--header",
+  "x-api-key:${SUPERTOOLS_API_KEY}",
+]
