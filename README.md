@@ -23,7 +23,7 @@ source ~/.zshrc
 Como plugin:
 
 ```
-/plugin marketplace add https://git.supertools.cl/drozast/supertools-mcp.git
+/plugin marketplace add Drozast/supertools-mcp
 /plugin install supertools@supertools
 ```
 
