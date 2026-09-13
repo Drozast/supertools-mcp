@@ -1,11 +1,17 @@
 {
   "name": "supertools",
-  "description": "Publica y administra sitios web en Supertools Hosting desde tu asistente de IA.",
-  "version": "1.0.0",
+  "description": "Publica y administra tus sitios web de Supertools desde Claude Code, con un comando para conectar tu cuenta.",
+  "version": "2.0.0",
   "author": {
     "name": "Supertools",
     "url": "https://supertools.cl"
   },
   "homepage": "https://supertools.cl/dashboard/hosting/mcp",
-  "keywords": ["hosting", "deploy", "mcp", "supertools", "chile"]
+  "keywords": [
+    "hosting",
+    "deploy",
+    "mcp",
+    "supertools",
+    "chile"
+  ]
 }

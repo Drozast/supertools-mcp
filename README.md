@@ -120,21 +120,24 @@ Tiene que devolver una lista con seis herramientas. Si da 401, la clave está ma
 
 ---
 
-## Instalarlo como plugin de Claude Code (avanzado)
+## Plugin de Claude Code
+
+Si prefieres no copiar comandos a mano, instala el plugin y él te conecta:
 
 ```
 /plugin marketplace add Drozast/supertools-mcp
 /plugin install supertools@supertools
 ```
 
-Esta vía **no** lleva tu clave adentro: la lee de la variable de entorno
-`SUPERTOOLS_API_KEY`, que tienes que definir tú.
+Después, dentro de Claude Code:
 
-```bash
-echo 'export SUPERTOOLS_API_KEY="tu-clave"' >> ~/.zshrc && source ~/.zshrc
+```
+/supertools:conectar TU-CLAVE
 ```
 
-Sirve si prefieres no tener la clave escrita en un archivo de configuración. Si la
-variable no está definida cuando arranca Claude Code, el servidor falla con un
-error poco descriptivo (`Dynamic Client Registration rejected`) — en ese caso
-define la variable y reinicia, o usa el comando de más arriba, que es más directo.
+Comprueba que la clave sirva antes de guardarla y te avisa en castellano si está
+mala o si te falta plan. Cierra Claude Code, ábrelo de nuevo y listo.
+
+El plugin además le enseña a Claude a publicar bien: que el sitio se vea en
+teléfono, que no invente tu teléfono ni tus horarios, y que te pida confirmación
+antes de borrar algo.

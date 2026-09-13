@@ -9,7 +9,7 @@
     {
       "name": "supertools",
       "source": "./",
-      "description": "Publica y administra sitios web en Supertools Hosting desde tu asistente de IA."
+      "description": "Publica y administra tus sitios web de Supertools desde Claude Code, con un comando para conectar tu cuenta."
     }
   ]
 }
